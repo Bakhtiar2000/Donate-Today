@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    align-items: center;
+    background: white;
+    background-image: url('../images/donation13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 1130px;
+
+}
+
+.header-container {
+    padding: 175px 307px;
+    align-items: center;
+}
+
+.header-title {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.para-desc {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 30px;
+    background-color: rgb(237, 102, 6);
+    border-radius: 8px;
+    border: none;
+    padding: 18px 35px;
+    height: 100px;
+    width: 300px;
+}
+
+.header-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* Sections */
+
+.section-title{
+
+}
+
+.sect-desc{
+
+}
+
+/* Donate Today */
+
+.donate-today{
+
+}
+
+/* Their lives depend on your donation */
+
+.their-lives-depend-on-your-donation{
+
+}
+
+/* They need us to suvive */
+
+.they-need-us-to-suvive{
+
+}
+
+/* Get My Updates */
+
+.get-my-updates{
+    
+}
