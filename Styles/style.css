@@ -11,7 +11,8 @@ header {
     background-size: cover;
     background-blend-mode: multiply;
     height: 1130px;
-
+    margin-bottom: 30px;
+    padding-top: 50px;
 }
 
 .header-container {
@@ -24,14 +25,14 @@ header {
     font-weight: 700px;
     font-size: 100px;
     color: white;
-    margin-bottom: 40px;
 }
 
-.para-desc {
+.header-desc {
     text-align: center;
-    font-weight: 400px;
-    font-size: 40px;
+    font-weight: 200px;
+    font-size: 30px;
     color: white;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
@@ -39,8 +40,8 @@ header {
     color: white;
     text-align: center;
     font-weight: 400px;
-    font-size: 30px;
-    background-color: rgb(237, 102, 6);
+    font-size: 35px;
+    background-color: #FF5959;
     border-radius: 8px;
     border: none;
     padding: 18px 35px;
@@ -53,20 +54,80 @@ header {
     justify-content: center;
 }
 
+/* main */
+main {
+    max-width: 1540px;
+    margin: 0 auto;
+}
+
 /* Sections */
 
 .section-title{
-
+    font-weight: 200px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .sect-desc{
-
+    display: flex;
+    justify-content: center;
+    font-weight: 200px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.566);
+    
 }
 
 /* Donate Today */
 
 .donate-today{
+    text-align: center;
+    margin-top: 180px;
+}
 
+.donate-box{
+    
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.donate-button{
+    border:none;
+    color: rgb(84, 84, 84);
+    background-color: rgb(246, 246, 246);
+    padding: 40px 40px;
+    border-radius: 5px; 
+    font-size: 25px; 
+    font-weight: 300px;
+}
+
+
+/* Our Donate Plan  */
+
+.our-donate-plan{
+   text-align: center;
+   margin-top: 180px;
+}
+
+.donate-plans-container{
+    display:flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 80px 120px;
+}
+
+.donate-plans{
+    text-align: left;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+
+.plan-title{
+    font-weight: 200px;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 /* Their lives depend on your donation */
@@ -84,5 +145,5 @@ header {
 /* Get My Updates */
 
 .get-my-updates{
-    
+
 }
